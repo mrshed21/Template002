@@ -206,3 +206,165 @@ background-color: #8482034b;
     border:#37340c solid 5px ;
 }
 
+/*  second section */
+.room-type {
+    background-color: antiquewhite;
+    width: 90%;
+    margin: auto;
+}
+.rooms-title {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 10px ;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+
+    
+
+}
+
+
+
+.line {
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 3px;
+    background-color:#37340c;
+    transition: width .5s;
+}
+
+.room-type:hover .line {
+    width: 300px;
+    
+}
+
+.rooms-model{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  ;
+    gap:10px;
+    margin: 0 5px;
+}
+
+.room-deluxe {
+    position: relative;
+    border: #37340c32 solid 1px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+
+}
+
+.room-content {
+    padding: 0 10px;
+
+}
+
+.room-content p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.rooms-model img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
+    transform: scale(1,1);
+    transition: 3s;
+
+}
+
+.rom1:hover .img1 {
+    transform: scale(1.1 , 1) ;
+}
+
+
+.rom2:hover .img2 {
+    transform: scale(1.1 , 1) ;
+}
+.rom3:hover .img3 {
+    transform: scale(1.1 , 1) ;
+}
+
+.rom4:hover .img4 {
+    transform: scale(1.1 , 1) ;
+}
+.rom5:hover .img5 {
+    transform: scale(1.1 , 1) ;
+}
+
+
+.more1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform: scale(1,1);
+    transition: 3s;
+    cursor: pointer;
+}
+
+.more1:hover .more-hover {
+    font-size: 48px;
+    transform: scale(1.1,1.1);
+
+}
+
+.room-subtitle{
+    color: #37340c;
+    font-size: 36px;
+}
+
+.category-item-title {
+    margin:  10px 0;
+}
+.btn-book {
+    padding: 5px 20px;
+    width: 405px;
+    height: 100%;
+    max-width: 45%;
+    border: #37340c solid 2px ;
+    color:#444305;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: rgba(255, 249, 217, 0.504);
+    border-radius: 5px 0 0 5;
+    box-shadow: #37340c4f 0 0 10px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.btn-book:hover {
+    background-color: #37340c39;
+    box-shadow:0 0 10px #84820355;
+
+
+
+}
+
+
+.iicon{
+    width: 30px;
+    height: 45px;
+    background-color: #37340c;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    display: block;
+    line-height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3;
+}
+.room-deluxe:hover .iicon{
+    visibility: visible;
+    opacity: 1;
+}
+
