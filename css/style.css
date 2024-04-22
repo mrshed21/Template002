@@ -533,7 +533,11 @@ transition: all .5s;
 .product-img {
     position: relative;
     overflow: hidden;
+    border-radius: 25px 25px 0 0 ;
+}
+.img-border {
     border-radius: 25px ;
+
 }
 
 .product-overlay{
