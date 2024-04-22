@@ -521,9 +521,19 @@ transition: all .5s;
 
 }
 
+.products-item1 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    
+
+
+}
 .product-img {
     position: relative;
-
+    overflow: hidden;
+    border-radius: 25px ;
 }
 
 .product-overlay{
@@ -531,7 +541,7 @@ transition: all .5s;
     top: 0;
     left: 0;
     transform:scalex(0);
-    opacity: 0.9;
+    opacity: 0.8;
     transition: transform 0.2s;
 }
 
@@ -556,6 +566,7 @@ transition: all .5s;
 
 .product-item:hover .product-overlay{
     transform: scalex(1);
+    
 }
 .product-item i.active{
     color: #848203;
